@@ -1,0 +1,31 @@
+.passion {
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 15px;
+
+}
+
+.passion img {
+    margin: 3%;
+    width: 94%;
+    border-radius: 15px;
+
+}
+
+.passion-details {
+    padding: 1% 5%;
+
+}
+
+.passion-details h4 {
+    margin: 0;
+}
+
+.select-btn {
+    width: 90%;
+    background-color: navy;
+    padding: 5% 10%;
+    margin: 5%;
+    border-radius: 15px;
+    color: aliceblue;
+}
