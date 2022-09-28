@@ -2,10 +2,7 @@
     background-color: black;
 
     height: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+
+    padding: 1% 10%;
     color: coral;
 }
