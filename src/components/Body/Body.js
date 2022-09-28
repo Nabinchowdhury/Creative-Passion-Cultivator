@@ -10,12 +10,15 @@ const Body = () => {
             .then(data => setPassion(data))
     }, [])
     // console.log(passions)
+    const addToList = ({ duration }) => {
+        console.log(duration)
+    }
     return (
         <div className='body'>
 
             <div className='instruments'>
                 {
-                    passions.map(passion => <Passion passion={passion} key={passion.id}></Passion>)
+                    passions.map(passion => <Passion passion={passion} addToList={addToList} key={passion.id}></Passion>)
                 }
 
             </div>

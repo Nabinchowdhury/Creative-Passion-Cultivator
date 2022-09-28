@@ -2,12 +2,14 @@
     width: 300px;
     border: 1px solid grey;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
 
 }
 
 .passion img {
     margin: 3%;
     width: 94%;
+    height: 200px;
     border-radius: 15px;
 
 }
@@ -28,4 +30,9 @@
     margin: 5%;
     border-radius: 15px;
     color: aliceblue;
+    border: none;
+}
+
+.select-btn:hover {
+    background-color: green;
 }

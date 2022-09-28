@@ -6,8 +6,25 @@
 .instruments {
     text-align: left;
     padding: 2% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .listed-passions {
     background-color: beige;
+}
+
+@media screen and (max-width: 900px) {
+    .instruments {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media screen and (min-width:900px) and (max-width: 1400px) {
+    .instruments {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
