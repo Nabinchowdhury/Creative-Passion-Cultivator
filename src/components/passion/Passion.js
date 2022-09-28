@@ -3,7 +3,7 @@ import "./Passion.css"
 
 const Passion = ({ passion, addToList }) => {
     const { id, activity, img, duration } = passion
-    console.log(passion)
+    // console.log(passion)
     return (
         <div className='passion'>
             <img src={img} alt="" />

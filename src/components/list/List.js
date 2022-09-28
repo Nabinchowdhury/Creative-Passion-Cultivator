@@ -15,11 +15,13 @@ const List = () => {
         });
     };
 
-
+    const updatedBreakTime = (event) => {
+        console.log(event)
+    }
     return (
         <div className='list'>
             <Personal></Personal>
-            <Break></Break>
+            <Break updatedBreakTime={updatedBreakTime}></Break>
             <Practise></Practise>
             <div>
                 <button className='activity-btn' onClick={showToastMessage}>Activity Completed</button>

@@ -13,3 +13,7 @@
     color: aliceblue;
     border: none;
 }
+
+.activity-btn:hover {
+    background-color: green;
+}
