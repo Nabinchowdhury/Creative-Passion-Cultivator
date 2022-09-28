@@ -1,0 +1,13 @@
+.body {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.instruments {
+    text-align: left;
+    padding: 2% 10%;
+}
+
+.listed-passions {
+    background-color: beige;
+}

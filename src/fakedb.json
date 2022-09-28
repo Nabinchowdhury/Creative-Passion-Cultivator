@@ -1,0 +1,44 @@
+[
+    {
+        "id": "63346306e9018c1a1747a75d",
+        "activity": "Electric Guitar",
+        "img": "https://instrumentio.com/wp-content/uploads/Depositphotos_10882964_xl-2015-768x444.jpg",
+        "duration": 57
+    },
+    {
+        "id": "6334630666970f3f03a3bc45",
+        "activity": "Acoustic Guitar",
+        "img": "https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "duration": 43
+    },
+    {
+        "id": "63346306f1ee600a443519f4",
+        "activity": "Bass Guitar",
+        "img": "https://media.istockphoto.com/photos/man-playing-a-guitar-in-a-room-picture-id472182841?k=20&m=472182841&s=612x612&w=0&h=f7F2jr8jIbYZmtGYSinngaPmG2SpsWUm1ubccJeBJeE=",
+        "duration": 22
+    },
+    {
+        "id": "633463066580344cde08bffd",
+        "activity": "Drums",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVDCtwY8p1F20d-vYq6Pzw-6NDGIKa-DVruqvjEY9OgEqQGmjrSL3rrMyQgO2uhTmNgTo&usqp=CAU",
+        "duration": 51
+    },
+    {
+        "id": "633463067f76b10b54d8d0cf",
+        "activity": "Violin",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSmuR6OEYjpDNB7lhGeWITr9g8jJ_PAsYC3ceiJ7oA31K9RxrJNFaCNXvyHO8TDcQb5N4&usqp=CAU",
+        "duration": 24
+    },
+    {
+        "id": "63346306880dad28342f16d2",
+        "activity": "Ukulele",
+        "img": "https://cdn.mos.cms.futurecdn.net/AjvjZeXbNMC6BExKxWKNDA.jpg",
+        "duration": 53
+    },
+    {
+        "id": "6334630612bcee30b46c1461",
+        "activity": "Singing",
+        "img": "https://images.unsplash.com/photo-1595422656857-ced3a4a0ce25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2luZ2luZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
+        "duration": 46
+    }
+]
