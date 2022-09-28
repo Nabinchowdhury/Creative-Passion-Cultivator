@@ -16,6 +16,11 @@
     border-radius: 50px;
 }
 
+.break div:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1200px) {
     .break {
         flex-direction: column;

@@ -36,4 +36,5 @@
 
 .select-btn:hover {
     background-color: green;
+    cursor: pointer;
 }
