@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Personal from '../personalDetails/Personal';
@@ -8,6 +8,7 @@ import Practise from '../practiseDetails/Practise';
 import "./List.css"
 
 const List = () => {
+    const [breakTime, setBreakTime] = useState(0)
 
     const showToastMessage = () => {
         toast.success('Congratulation ! Activity Completed!', {
@@ -16,13 +17,13 @@ const List = () => {
     };
 
     const updatedBreakTime = (event) => {
-        console.log(event)
+        setBreakTime(event)
     }
     return (
         <div className='list'>
             <Personal></Personal>
             <Break updatedBreakTime={updatedBreakTime}></Break>
-            <Practise></Practise>
+            <Practise breakTime={breakTime}></Practise>
             <div>
                 <button className='activity-btn' onClick={showToastMessage}>Activity Completed</button>
                 <ToastContainer />
