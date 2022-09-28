@@ -4,6 +4,7 @@ import List from '../list/List';
 import "./Body.css"
 const Body = () => {
     const [passions, setPassion] = useState([])
+    const [durations, setDuration] = useState([])
     useEffect(() => {
         fetch("../../fakedb.json")
             .then(res => res.json())
@@ -11,20 +12,23 @@ const Body = () => {
     }, [])
     // console.log(passions)
     const addToList = ({ duration }) => {
-        console.log(duration)
+        let array = []
+        array = [...durations, duration]
+        setDuration(array)
     }
+
     return (
         <div className='body'>
 
             <div >
                 <h2>Select Your Passion</h2>
-                <div className='instruments'>{
+                <div className='passions'>{
                     passions.map(passion => <Passion passion={passion} addToList={addToList} key={passion.id}></Passion>)
                 }</div>
 
             </div>
             <div className='listed-passions'>
-                <List></List>
+                <List duration={durations}></List>
             </div>
         </div>
     );

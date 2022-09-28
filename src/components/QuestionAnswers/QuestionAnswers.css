@@ -1,0 +1,11 @@
+.allQA {
+    padding: 2% 5%;
+    text-align: left;
+}
+
+.questionAnswers {
+    background-color: darkcyan;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+}

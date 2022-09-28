@@ -1,13 +1,13 @@
 
-const addToDB = (time) => {
+const addToDB = (name, value) => {
     let item = {}
-    item.breaktime = time
+    item[name] = value
     localStorage.setItem("key", JSON.stringify(item))
 
 
 };
 const getFromDB = () => {
-    let breaktime = JSON.parse(localStorage.getItem("key"))
+    const breaktime = JSON.parse(localStorage.getItem("key"))
 
     return breaktime;
 }

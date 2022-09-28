@@ -8,13 +8,15 @@ import { addToDB, getFromDB } from '../../utility/manageDB';
 
 import "./List.css"
 
-const List = () => {
+const List = ({ duration }) => {
     const [breakTime, setBreakTime] = useState(0)
 
     useEffect(() => {
         const getItem = getFromDB()
+        // console.log(getItem)
         if (getItem) {
-            setBreakTime(getItem.breaktime)
+            setBreakTime(getItem.breakTime
+            )
         }
         else { setBreakTime(0) }
     }, [])
@@ -27,13 +29,13 @@ const List = () => {
 
     const updatedBreakTime = (time) => {
         setBreakTime(time)
-        addToDB(time)
+        addToDB('breakTime', time)
     }
     return (
         <div className='list'>
             <Personal></Personal>
             <Break updatedBreakTime={updatedBreakTime}></Break>
-            <Practise breakTime={breakTime}></Practise>
+            <Practise breakTime={breakTime} duration={duration}></Practise>
             <div>
                 <button className='activity-btn' onClick={showToastMessage}>Activity Completed</button>
                 <ToastContainer />
