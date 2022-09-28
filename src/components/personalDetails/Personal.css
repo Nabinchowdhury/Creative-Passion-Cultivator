@@ -1,0 +1,32 @@
+.personal-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.personal-details img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.about {
+    background-color: blanchedalmond;
+    margin: 5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 800px) {
+    .personal-details {
+        flex-direction: column;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .personal-details img {
+        width: 90%;
+    }
+
+}

@@ -1,6 +1,11 @@
 .body {
+    background-color: rgb(57, 45, 45);
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+.body h2 {
+    color: azure;
 }
 
 .instruments {
@@ -8,21 +13,21 @@
     padding: 2% 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
 }
 
 .listed-passions {
-    background-color: beige;
+    background-color: aliceblue;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     .instruments {
         grid-template-columns: repeat(1, 1fr);
     }
 
 }
 
-@media screen and (min-width:900px) and (max-width: 1400px) {
+@media screen and (min-width:700px) and (max-width: 1000px) {
     .instruments {
         grid-template-columns: repeat(2, 1fr);
     }

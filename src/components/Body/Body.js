@@ -16,10 +16,11 @@ const Body = () => {
     return (
         <div className='body'>
 
-            <div className='instruments'>
-                {
+            <div >
+                <h2>Select Your Passion</h2>
+                <div className='instruments'>{
                     passions.map(passion => <Passion passion={passion} addToList={addToList} key={passion.id}></Passion>)
-                }
+                }</div>
 
             </div>
             <div className='listed-passions'>

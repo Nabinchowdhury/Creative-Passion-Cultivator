@@ -1,4 +1,15 @@
 .list {
     position: sticky;
     top: 0%;
+    padding: 5%;
+}
+
+.activity-btn {
+    width: 90%;
+    background-color: navy;
+    padding: 5% 10%;
+    margin: 5%;
+    border-radius: 15px;
+    color: aliceblue;
+    border: none;
 }
